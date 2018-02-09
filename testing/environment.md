@@ -1,0 +1,1 @@
+在阿里云ECS上进行实验，对比了dezhoukv和redis、leveldb，阿里云服务器ECS IO优化实例型号为ecs.xn4.small，共2台，其中每台包含1个超线程vCPU核心，1GB内存（33MB L3 Cache）和1个40GB的HDD，可以提供1240IOPS，54MBps的数据吞吐量。在Sogou内网中进行了一些对比实验，对比了dezhoukv和redis、sogou-qdb、leveldb，Sogou云服务器共2台，包括一台4核超线程CPU，126G内存（无L3 Cache），1个500GB的HDD，和一台8核超线程CPU，125G内存（20MB L3 Cache），1个438GB的SSD机器上进行的。

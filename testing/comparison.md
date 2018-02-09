@@ -1,0 +1,1 @@
+我们对比了redis、redis-persistance-hdd，sogou-qdb，dezhoukv，leveldb等数据库的get，set的性能。
