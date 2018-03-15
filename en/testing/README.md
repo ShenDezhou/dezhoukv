@@ -1,0 +1,1 @@
+The performance of the database mentioned in this paper is measured by random reading and writing, and the performance of the database is observed under the utilization rate of 3.378or 10.09%, and the database such as Redissee level DBN Sogou QDB and DezhouKV are compared.

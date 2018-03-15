@@ -1,0 +1,3 @@
+We use Redis-Benchmark to test each database. Because different databases have different communication mode, we encapsulate Sogou-QDB and LevelDB.
+![135000,17000,8500.0,5666.7,4250.0,3400.0,2833.3,2428.5,2125.0,1888.8,1720.0](/testing/leveldb-dezhoukv.png "10000随机KEY下LevelDB与DezhouKV性能对比")
+![135000,17000,8500.0,5666.7,4250.0,3400.0,2833.3,2428.5,2125.0,1888.8,1720.0](/testing/dezhoukv1-4.png "DezhouKV1后端进程与4后端进程对比")

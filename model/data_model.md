@@ -1,2 +1,0 @@
-一个结构化数据根据MurmurHash3映射成128bit, 任取高位或者低位64bit映射到-10<sup>10</sup>~5\*10<sup>9</sup>,利用映射公式![归一化](http://latex.codecogs.com/png.latex?f(x%29=xmod({1.5*{10^{10}}}%29-{7.5*{10^{9}}})， 映射后的y值再根据分段函数公式，求得向量z，z的值域为{i,j,k}。   
-![z计算](http://latex.codecogs.com/png.latex?U=%5Cbegin{cases}i%26(-10%5E%7B10%7D%2C0%5D\\j%26%280%2C10%5E9%5D\\k%26%2810%5E9%2C5*10%5E9%5D%5Cend{cases})    ，当z为(i,j,k)时，分别代表元素A存储在SSD、HDD,内存。

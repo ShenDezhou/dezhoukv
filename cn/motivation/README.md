@@ -1,0 +1,1 @@
+u向量衡量数据存放位置，v向量衡量设备介质（DRAM，SSD，HDD）的速度特性，w向量衡量设备的存储量特性。我们预定义i=(1,0,0)、j=(0,1,0)、k=(0,0,1)，i,j,k表示数据存放在DRAM、SSD、HDD上。行列式uvw表示oxyz三维直角坐标系下三向量u，v、w所成体积。因此，对于每个KEY，经过哈希计算后生成一个128bit哈希与行列式cuvw的体积是一个满射。我们定义c是(0,1]的常量。uvw行列式=![公式名](http://latex.codecogs.com/png.latex?$$%5cbegin{bmatrix}u_{1}&u_{2}&u_{3}\\v_{1}&v_{2}&v_{3}\\w_{1}&w_{2}&w_{3}%5cend{bmatrix}$$)

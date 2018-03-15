@@ -1,0 +1,1 @@
+After comparing Redis and LevelDB database, it is found that Redis-Benchmark is used to compare interface GET, SET is more convenient, so LevelDB-Redis and SougouQDB-Redis are implemented to compare Redis, LevelDB, DezhouKV, Sogou-QDB.

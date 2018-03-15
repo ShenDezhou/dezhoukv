@@ -1,0 +1,2 @@
+将结构化数据根据KEY分散到值域空间，理论上，平均响应时间应该是由各个硬件所保存的条数乘以硬件速度再除以总条数。![公式名](http://latex.codecogs.com/png.latex?t=%5cfrac%7b%5csum%20r_t*n_s}%7b%5csum%20n_s}),    r<sub>t</sub>是硬件响应时间，n<sub>s</sub>是KEY数量。    
+因此，本文的KV平均响应时间t=（0.6\*4+6000\*1+140\*10）/16，平均响应时间是7.4ns,理论IOPS为13.5万。假设平均响应时间内存为0.6ns, HDD为6000ns，SSD为140ns，而且不考虑哈希冲突，即3-Hierarchical架构，item比为DRAM：SSD：HDD为4：10：1。

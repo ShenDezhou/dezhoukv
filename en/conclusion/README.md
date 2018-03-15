@@ -1,0 +1,1 @@
+DezhouKV is a high-performance database of in-memory+on-disk, which has the characteristics of universality, extensibility, high performance and high availability.

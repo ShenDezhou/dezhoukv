@@ -1,0 +1,1 @@
+在对比了Redis，LevelDB数据库后发现，用Redis-Benchmark来对比接口GET、SET比较方便，于是实现了LevelDB-Redis和SogouQDB-Redis，用于对比Redis,LevelDB,DezhouKV,SogouQDB。

@@ -1,0 +1,1 @@
+DezhouKV是in memory+on disk的高性能数据库，具有普适性、可扩展、高性能、高可用等特点。在利用三级存储方面，比Redis，LevelDB，SogouQDB有显著的优势，并且保留了高效、可扩展、高可用的特点。

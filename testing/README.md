@@ -1,1 +1,0 @@
-一些对比实验在阿里云服务器ECS IO优化实例上进行的，型号为ecs.xn4.small，共2台，其中每台包含1个超线程vCPU核心，1GB内存（33MB L3 Cache）和1个40GB的HDD，可以提供1240IOPS，54MBps的数据吞吐量。
